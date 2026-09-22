@@ -1,4 +1,4 @@
-str_input = input('Enter your grade: 85')
+str_input = input('Enter your grade: ')
 grade = int(str_input)
 
 if grade == 100:
@@ -12,8 +12,7 @@ elif grade >= 65:
 
     if grade <= 70:
         print("but you need to improve it!")
-    else: 
+    else:
         print("with ok grade")
-
 else:
     print("below the passing grade")
